@@ -1,0 +1,69 @@
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+
+.footer-section h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.footer-section p, .footer-section a, .footer-section ul, .footer-section li {
+    margin: 5px 0;
+}
+
+.footer-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer-section form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section img {
+    margin: 5px;
+}
+
+.footer-section img:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .footer-section {
+        flex: 1 1 100%;
+        text-align: center;
+    }
+}
