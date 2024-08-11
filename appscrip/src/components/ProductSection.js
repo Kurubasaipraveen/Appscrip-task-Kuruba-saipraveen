@@ -5,7 +5,7 @@ import '../styles/ProductPage.css';
 const ProductSection = () => {
   const [showFilters, setShowFilters] = useState(true);
 
-  // Step 1: Create an array to hold product data
+  
   const products = [
     {
       id: 1,
